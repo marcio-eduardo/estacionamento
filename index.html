@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estacionamento</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 id="titulo">Estacionamento</h1>
+    <nav class="navigation">
+      <section class="input">
+        <div class="entrada">
+          <span class="label">Nome do Veículo:</span>
+          <input type="text" id="nome" autocomplete="off" />
+        </div>
+
+        <div class="entrada">
+          <span class="label">Placa:</span>
+          <input type="text" id="placa" autocomplete="off" />
+        </div>
+
+        <button id="cadastrar">Cadastrar</button>
+      </section>
+      <table id="tabela">
+        <thead id="titulo-coluna">
+          <tr>
+            <th>Nome</th>
+            <th>Placa</th>
+            <th>Data</th>
+            <th>Hora</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="patio"></tbody>
+      </table>
+
+      <footer class="footer">
+        <div class="contatos">
+          <div id="linkedin" class="hover">
+            <a
+              href="https://www.linkedin.com/in/marcio-da-silva-eduardo-6b488a66/"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+              >linkedin
+            </a>
+          </div>
+          <div id="github" class="hover">
+            <a
+              href="https://github.com/marcio-eduardo"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+              >GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="descricao">
+          <p>
+            Projeto criado para o curso de CSS da
+            <a target="_blank" href="https://dio.me/sign-up?ref=IGZZB7WCYM"
+              >Digital Innovation One</a
+            ><br />
+            © 2022 Instagram - Clone by Marcio Eduardo
+          </p>
+        </div>
+      </footer>
+    </nav>
+
+    <script src="types.ts"></script>
+  </body>
+</html>
